@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Music Player with Playlist</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Simple Music Player</h1>
+
+  <div class="playlist">
+    <button onclick="playSong('song3.mp3', this)">Dhinka Chika</button>
+    <button onclick="playSong('song2.mp3', this)">Jeena Jeena</button>
+    <button onclick="playSong('song1.mp3', this)">Superman</button>
+  </div>
+
+  <h2 id="now-playing">Now Playing: None</h2>
+  <audio id="audioPlayer" controls></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
